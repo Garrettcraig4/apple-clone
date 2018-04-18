@@ -1,0 +1,17 @@
+.Header {
+  background-color: #250205;
+  height: 48px;
+  margin: 0px;
+  font-size: 17px;
+  padding: 0px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-between;
+}
+.space {
+  width: 150px;
+}
