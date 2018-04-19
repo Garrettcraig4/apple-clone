@@ -5,6 +5,8 @@ import hero from "../../Asssetts/hero_largetall.jpg";
 import iphonexhero from "../../Asssetts/iphone_x_largetall_2x.jpg";
 import ipadhero from "../../Asssetts/ipad_largetall.jpg";
 import mbphero from "../../Asssetts/macbook_pro_large.jpg";
+import applewt from "../../Asssetts/watch_series_3_logo_large.png";
+import applewimg from "../../Asssetts/watch_series_3_large.jpg";
 class Home extends Component {
   render() {
     return (
@@ -31,10 +33,17 @@ class Home extends Component {
           <p id="sipad"> Like a computer. Unlike any computer. </p>
           <img src={ipadhero} />
         </div>
-        <div className="macbookpro">
-          <p id="HMBP">MacBook Pro</p>
-          <p id="smbp">A touch of genius.</p>
-          <img id="mbpimg" src={mbphero} />
+        <div id="flexd">
+          <div className="macbookpro">
+            <p id="HMBP">MacBook Pro</p>
+            <p id="smbp">A touch of genius.</p>
+            <img id="mbpimg" src={mbphero} />
+          </div>
+          <div className="applewatch">
+            <img src={applewt} />
+            <p classNane="applewtext">The freedom of cellular.</p>
+            <img className="applewimg" src={applewimg} />
+          </div>
         </div>
       </div>
     );

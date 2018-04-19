@@ -108,7 +108,7 @@
   letter-spacing: 0em;
   font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
     "Arial", sans-serif;
-  margin-top: 52px;
+  margin-bottom: 0px;
 }
 #smbp {
   font-size: 21px;
@@ -123,4 +123,26 @@
   width: 45%;
   text-align: center;
   margin-left: 35px;
+}
+.applewatch {
+  background-color: #eeeeee;
+  width: 50%;
+  margin-left: 15px;
+  padding-top: 50px;
+}
+#applewtext {
+}
+
+.applewimg {
+}
+
+#flexd {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: stretch;
+  margin-top: 0px;
+  padding-top: 0px;
 }
