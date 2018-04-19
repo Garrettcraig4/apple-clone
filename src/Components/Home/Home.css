@@ -77,3 +77,27 @@
     "Arial", sans-serif;
   margin-bottom: 105px;
 }
+.ipad {
+  background-color: #f5f5f5;
+  margin-top: 325px;
+  font-size: 56px;
+  line-height: 1.07143;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+
+#sipad {
+  font-size: 27px;
+  line-height: 1.14815;
+  font-weight: 400;
+  letter-spacing: 0.008em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  margin-top: 6px;
+}
+
+#hipad {
+  margin: 0px;
+}
