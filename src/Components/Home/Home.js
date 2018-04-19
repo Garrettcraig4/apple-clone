@@ -4,6 +4,7 @@ import red from "../../Asssetts/product_red_logo_alt_large.png";
 import hero from "../../Asssetts/hero_largetall.jpg";
 import iphonexhero from "../../Asssetts/iphone_x_largetall_2x.jpg";
 import ipadhero from "../../Asssetts/ipad_largetall.jpg";
+import mbphero from "../../Asssetts/macbook_pro_large.jpg";
 class Home extends Component {
   render() {
     return (
@@ -29,6 +30,11 @@ class Home extends Component {
           <p id="hipad">iPad</p>
           <p id="sipad"> Like a computer. Unlike any computer. </p>
           <img src={ipadhero} />
+        </div>
+        <div className="macbookpro">
+          <p id="HMBP">MacBook Pro</p>
+          <p id="smbp">A touch of genius.</p>
+          <img id="mbpimg" src={mbphero} />
         </div>
       </div>
     );
