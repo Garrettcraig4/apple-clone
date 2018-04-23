@@ -56,8 +56,7 @@ class Home extends Component {
           </div>
           <div className="applemusic">
             <img className="applemt" src={applemt} />
-            <p classNane="applemtext">45 million songs. Three months on us.</p>
-            <img className="applemimg" src={applemimg} />
+            <p className="applemtext">45 million songs. Three months on us.</p>
           </div>
         </div>
       </div>

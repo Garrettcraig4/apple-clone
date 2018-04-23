@@ -176,18 +176,24 @@
 }
 .applemusic {
   width: 50%;
+
+  background-image: url("../../Asssetts/music_three_months_large.jpg");
+  background-position: center;
+  height: 600px;
   margin-left: 15px;
-  padding-top: 50px;
-  height: 175px;
+  padding-top: 90px;
 }
 .applemtext {
-}
-.applemimg {
-  z-index: -1;
-  margin-left: 15px;
-  padding-top: 50px;
-  height: 300px;
+  z-index: 1;
+  font-size: 21px;
+  line-height: 1.2381;
+  font-weight: 400;
+  letter-spacing: 0.016em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  color: white;
 }
 
 .applemt {
+  z-index: 1;
 }
