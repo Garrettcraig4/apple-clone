@@ -1,0 +1,29 @@
+.Footer {
+  font-size: 11px;
+  line-height: 1.36364;
+  font-weight: 400;
+  letter-spacing: -0.008em;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons",
+    "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+  min-width: 1024px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.insidef {
+  margin: 0 auto;
+  max-width: 980px;
+  padding: 0 22px;
+}
+
+.redt {
+  border-bottom: 1px solid #d6d6d6;
+  color: #888;
+  padding: 17px 0 11px;
+}
+
+.linksf {
+}

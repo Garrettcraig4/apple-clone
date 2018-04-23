@@ -12,6 +12,7 @@ import applemimg from "../../Asssetts/music_three_months_large.jpg";
 import applemt from "../../Asssetts/music_white_large.png";
 import applett from "../../Asssetts/tv_4k_large.png";
 import appleair from "../../Asssetts/airpods_large.jpg";
+import Footer from "../../Components/Footer/Footer";
 class Home extends Component {
   render() {
     return (
@@ -72,6 +73,7 @@ class Home extends Component {
             <img className="airimg" src={appleair} />
           </div>
         </div>
+        <Footer />
       </div>
     );
   }
