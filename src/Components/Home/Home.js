@@ -11,6 +11,7 @@ import homepodhero from "../../Asssetts/homepod_large.jpg";
 import applemimg from "../../Asssetts/music_three_months_large.jpg";
 import applemt from "../../Asssetts/music_white_large.png";
 import applett from "../../Asssetts/tv_4k_large.png";
+import appleair from "../../Asssetts/airpods_large.jpg";
 class Home extends Component {
   render() {
     return (
@@ -60,10 +61,15 @@ class Home extends Component {
             <p className="applemtext">45 million songs. Three months on us.</p>
           </div>
         </div>
-        <div className="flexed">
+        <div id="flexd">
           <div className="appletv">
             <img className="applett" src={applett} />
             <p className="applettext">The 4K HDR era. Now playing.</p>
+          </div>
+          <div className="appleairpods">
+            <p className="airh"> AirPods </p>
+            <p className="airs"> Wireless. Effortless. Magical. </p>
+            <img className="airimg" src={appleair} />
           </div>
         </div>
       </div>

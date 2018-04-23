@@ -218,3 +218,34 @@
     "Arial", sans-serif;
   margin-top: 4px;
 }
+
+.appleairpods {
+  background-color: #fafafa;
+  width: 50%;
+  margin-left: 15px;
+  padding-top: 90px;
+  height: 575px;
+}
+
+.airh {
+  font-size: 40px;
+  line-height: 1.1;
+  font-weight: 600;
+  letter-spacing: 0em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  margin-top: 52px;
+  margin-bottom: 0px;
+}
+.airs {
+  font-size: 21px;
+  line-height: 1.2381;
+  font-weight: 400;
+  letter-spacing: 0.016em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  margin-top: 4px;
+}
+
+.airimg {
+}
