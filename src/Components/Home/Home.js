@@ -10,6 +10,7 @@ import applewimg from "../../Asssetts/watch_series_3_large.jpg";
 import homepodhero from "../../Asssetts/homepod_large.jpg";
 import applemimg from "../../Asssetts/music_three_months_large.jpg";
 import applemt from "../../Asssetts/music_white_large.png";
+import applett from "../../Asssetts/tv_4k_large.png";
 class Home extends Component {
   render() {
     return (
@@ -57,6 +58,12 @@ class Home extends Component {
           <div className="applemusic">
             <img className="applemt" src={applemt} />
             <p className="applemtext">45 million songs. Three months on us.</p>
+          </div>
+        </div>
+        <div className="flexed">
+          <div className="appletv">
+            <img className="applett" src={applett} />
+            <p className="applettext">The 4K HDR era. Now playing.</p>
           </div>
         </div>
       </div>

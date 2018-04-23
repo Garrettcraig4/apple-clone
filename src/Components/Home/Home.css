@@ -197,3 +197,24 @@
 .applemt {
   z-index: 1;
 }
+
+.appletv {
+  background-image: url("../../Asssetts/tv_4k_large.jpg");
+  background-position: center;
+  height: 600px;
+  margin-left: 15px;
+  padding-top: 90px;
+  width: 50%;
+}
+.applett {
+}
+.applettext {
+  color: white;
+  font-size: 21px;
+  line-height: 1.2381;
+  font-weight: 400;
+  letter-spacing: 0.016em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  margin-top: 4px;
+}
