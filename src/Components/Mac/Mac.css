@@ -93,3 +93,26 @@
   margin-bottom: 2px;
   color: white;
 }
+
+.imach {
+  padding-top: 45px;
+  font-size: 80px;
+  line-height: 1.0625;
+
+  letter-spacing: -0.02em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.imacs {
+  font-size: 40px;
+  line-height: 1.1;
+  font-weight: 600;
+  letter-spacing: 0em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  margin-top: 0;
+  margin-bottom: 2px;
+}
