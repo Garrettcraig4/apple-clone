@@ -10,6 +10,7 @@ import macmini from "../../Asssetts/macmini_dark_large.svg";
 import accessories from "../../Asssetts/mac_acc_dark_large.svg";
 import highsierra from "../../Asssetts/mac_osx_dark_large.svg";
 import compare from "../../Asssetts/mac_comp_dark_large.svg";
+import imacprohero from "../../Asssetts/imac_pro_01_large.jpg";
 import { Link } from "react-router-dom";
 class Mac extends Component {
   render() {
@@ -59,6 +60,16 @@ class Mac extends Component {
               <p className="mact">Compare</p>
             </div>
           </div>
+        </div>
+        <div className="imacpro">
+          <p className="imacproh">iMac Pro</p>
+          <p className="imacpros">Power to the pro.</p>
+          <div className="flexthis">
+            <p>Learn more ></p>
+            <p>Buy ></p>
+            <p>Watch the films ></p>
+          </div>
+          <img src={imacprohero} />
         </div>
       </div>
     );

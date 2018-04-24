@@ -38,8 +38,58 @@
 .fill {
   background-color: #141414;
   height: 159px;
+  margin-bottom: 0px;
 }
 
 .mact {
   margin: 0px;
+}
+
+.flexthis {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  width: 36%;
+  margin-left: 32%;
+  font-size: 21px;
+  line-height: 1.38105;
+  font-weight: 400;
+  letter-spacing: 0.011em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  color: lightskyblue;
+  margin-top: 16px;
+}
+
+.imacpro {
+  background-color: #1a1a1a;
+  margin-top: 0;
+}
+
+.imacproh {
+  font-size: 80px;
+  line-height: 1.0625;
+  margin-top: 0px;
+  padding-top: 80px;
+  letter-spacing: -0.02em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.imacpros {
+  font-size: 40px;
+  line-height: 1.1;
+  font-weight: 600;
+  letter-spacing: 0em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  margin-top: 0;
+  margin-bottom: 2px;
+  color: white;
 }
