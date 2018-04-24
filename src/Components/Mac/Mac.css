@@ -1,0 +1,45 @@
+.machead {
+  background-color: #141414;
+
+  font-size: 17px;
+  line-height: 1.47059;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  height: 110px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: baseline;
+  align-content: center;
+  padding-top: 49px;
+  margin: 0 34px;
+}
+
+.par {
+  font-size: 11px;
+  line-height: 1.09091;
+  font-weight: 400;
+  letter-spacing: 0.005em;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  display: block;
+  margin: 0;
+  color: white;
+  padding-top: 20px;
+}
+.o {
+  color: orange;
+  font-size: 8px;
+  margin: 0px;
+}
+.fill {
+  background-color: #141414;
+  height: 159px;
+}
+
+.mact {
+  margin: 0px;
+}
