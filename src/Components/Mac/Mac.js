@@ -102,6 +102,14 @@ class Mac extends Component {
           </div>
           <img src={macbookhero} />
         </div>
+        <div className="os">
+          <p className="osh">macOS High Sierra</p>
+          <p className="oss">Your Mac.Elevated.</p>
+          <div className="flexthis">
+            <p>Learn more ></p>
+            <p>Upgrade now ^</p>
+          </div>
+        </div>
       </div>
     );
   }
