@@ -14,6 +14,7 @@ import imacprohero from "../../Asssetts/imac_pro_01_large.jpg";
 import imachero from "../../Asssetts/imac_large.jpg";
 import macbookprohero from "../../Asssetts/macbookpro_tb_large.jpg";
 import macbookhero from "../../Asssetts/macbook_large.jpg";
+import comparemachero from "../../Asssetts/compare_large.jpg";
 import { Link } from "react-router-dom";
 class Mac extends Component {
   render() {
@@ -109,6 +110,13 @@ class Mac extends Component {
             <p>Learn more ></p>
             <p>Upgrade now ^</p>
           </div>
+        </div>
+        <div className="comparem">
+          <p className="comparemh">Compare Mac models.</p>
+          <div>
+            <p className="comparems">Find the best Mac for you > </p>
+          </div>
+          <img src={comparemachero} />
         </div>
       </div>
     );

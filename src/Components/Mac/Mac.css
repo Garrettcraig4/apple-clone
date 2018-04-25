@@ -60,7 +60,7 @@
   letter-spacing: 0.011em;
   font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
     "Arial", sans-serif;
-  color: lightskyblue;
+  color: #0070c9;
   margin-top: 16px;
 }
 
@@ -167,6 +167,7 @@
   background-image: url("../../Asssetts/tile_high_sierra_large.jpg");
   background-position: center;
   height: 500px;
+  background-repeat: no-repeat;
 }
 .osh {
   padding-top: 155px;
@@ -188,4 +189,26 @@
     "Arial", sans-serif;
   color: white;
   margin: 0px;
+}
+
+.comparemh {
+  font-size: 48px;
+  line-height: 1.08365;
+  font-weight: 600;
+  letter-spacing: -0.003em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  margin: 0px;
+}
+
+.comparems {
+  font-size: 21px;
+  line-height: 1.38105;
+  font-weight: 400;
+  letter-spacing: 0.011em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  display: inline-block;
+  margin-top: 16px;
+  color: #0070c9;
 }
