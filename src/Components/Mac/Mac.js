@@ -12,6 +12,8 @@ import highsierra from "../../Asssetts/mac_osx_dark_large.svg";
 import compare from "../../Asssetts/mac_comp_dark_large.svg";
 import imacprohero from "../../Asssetts/imac_pro_01_large.jpg";
 import imachero from "../../Asssetts/imac_large.jpg";
+import macbookprohero from "../../Asssetts/macbookpro_tb_large.jpg";
+import macbookhero from "../../Asssetts/macbook_large.jpg";
 import { Link } from "react-router-dom";
 class Mac extends Component {
   render() {
@@ -81,6 +83,24 @@ class Mac extends Component {
           </div>
 
           <img src={imachero} />
+        </div>
+        <div className="macbookpro2">
+          <p className="macbookproh">MacBook Pro </p>
+          <p className="macbookpros">A touch of genius.</p>
+          <div className="flexthis">
+            <p>Learn more ></p>
+            <p>Buy ></p>
+          </div>
+          <img className="macbookproim" src={macbookprohero} />
+        </div>
+        <div className="macbook">
+          <p className="macbookh">MacBook</p>
+          <p className="macbooks"> Light. Years ahead.</p>
+          <div className="flexthis">
+            <p> Learn more ></p>
+            <p> Buy ></p>
+          </div>
+          <img src={macbookhero} />
         </div>
       </div>
     );

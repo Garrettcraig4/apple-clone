@@ -116,3 +116,49 @@
   margin-top: 0;
   margin-bottom: 2px;
 }
+
+.macbookproh {
+  font-size: 80px;
+  line-height: 1.0625;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.macbookpros {
+  font-size: 40px;
+  line-height: 1.1;
+  font-weight: 600;
+  letter-spacing: 0em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  margin-top: 0;
+  margin-bottom: 2px;
+}
+.macbookproim {
+  margin-top: 0px;
+  width: 1350px;
+  height: 721px;
+  display: inline;
+}
+.macbookh {
+  font-size: 80px;
+  line-height: 1.0625;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.macbooks {
+  font-size: 40px;
+  line-height: 1.1;
+  font-weight: 600;
+  letter-spacing: 0em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  margin: 0px;
+}
