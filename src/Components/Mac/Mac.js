@@ -15,6 +15,8 @@ import imachero from "../../Asssetts/imac_large.jpg";
 import macbookprohero from "../../Asssetts/macbookpro_tb_large.jpg";
 import macbookhero from "../../Asssetts/macbook_large.jpg";
 import comparemachero from "../../Asssetts/compare_large.jpg";
+import shipping from "../../Asssetts/icon_shipping_large.png";
+import pickup from "../../Asssetts/icon_pickup_large.png";
 import { Link } from "react-router-dom";
 class Mac extends Component {
   render() {
@@ -128,7 +130,27 @@ class Mac extends Component {
           <p className="justts">
             Apple GiveBack. It's good for you and the planet.
           </p>
-          <p className="flexthis"> See how it works > </p>
+          <p className="blue"> See how it works > </p>
+        </div>
+        <div className="buy">
+          <div className="deliver">
+            <img src={shipping} />
+            <p className="shippingtexth">Free two-day delivery</p>
+            <p className="shippingtexts">
+              On in-stock items orderd by 5:00 p.m.
+            </p>
+
+            <p className="blue">learn more ></p>
+          </div>
+
+          <div className="pickup">
+            <img src={pickup} />
+            <p className="pickuptexth">Pick up at the Apple Store</p>
+            <p className="pickuptexts">
+              Buy online and pick up available items in an hour.
+            </p>
+            <p className="blue"> Learn more ></p>
+          </div>
         </div>
       </div>
     );
