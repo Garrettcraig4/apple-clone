@@ -212,3 +212,27 @@
   margin-top: 16px;
   color: #0070c9;
 }
+
+.justth {
+  font-size: 48px;
+  line-height: 1.08365;
+  font-weight: 600;
+  letter-spacing: -0.003em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  margin: 0px;
+}
+.justts {
+  font-size: 21px;
+  line-height: 1.38105;
+  font-weight: 400;
+  letter-spacing: 0.011em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  color: #333;
+  margin-top: 1.2em;
+}
+.justt {
+  padding-top: 250px;
+  padding-bottom: 205px;
+}

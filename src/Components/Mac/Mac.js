@@ -118,6 +118,18 @@ class Mac extends Component {
           </div>
           <img src={comparemachero} />
         </div>
+        <div className="justt">
+          <p className="justth">Turn the computer you have</p>
+          <p className="justth">into the Mac you want.</p>
+          <p className="justts">
+            Get credit toward a new Mac. Just trade in your eligible computer
+            with
+          </p>
+          <p className="justts">
+            Apple GiveBack. It's good for you and the planet.
+          </p>
+          <p className="flexthis"> See how it works > </p>
+        </div>
       </div>
     );
   }
