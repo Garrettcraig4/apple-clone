@@ -17,6 +17,7 @@ import macbookhero from "../../Asssetts/macbook_large.jpg";
 import comparemachero from "../../Asssetts/compare_large.jpg";
 import shipping from "../../Asssetts/icon_shipping_large.png";
 import pickup from "../../Asssetts/icon_pickup_large.png";
+
 import { Link } from "react-router-dom";
 class Mac extends Component {
   render() {
@@ -151,6 +152,10 @@ class Mac extends Component {
             </p>
             <p className="blue"> Learn more ></p>
           </div>
+        </div>
+        <div className="accessories">
+          <p className="acch">Accessories for Mac</p>
+          <p className="blue">Shop now > </p>
         </div>
       </div>
     );

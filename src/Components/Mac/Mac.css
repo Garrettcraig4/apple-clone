@@ -168,6 +168,7 @@
   background-position: center;
   height: 500px;
   background-repeat: no-repeat;
+  margin-bottom: 250px;
 }
 .osh {
   padding-top: 155px;
@@ -300,4 +301,18 @@
     "Arial", sans-serif;
   color: #111;
   margin: 0;
+}
+
+.accessories {
+  font-size: 48px;
+  line-height: 1.08365;
+  font-weight: 600;
+  letter-spacing: -0.003em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  background-image: url("../../Asssetts/accessories_large.jpg");
+  height: 650px;
+  background-repeat: no-repeat;
+}
+.acch {
 }
